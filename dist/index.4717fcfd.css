@@ -11997,4 +11997,37 @@ textarea.form-control-lg {
   }
 }
 
+.card-section {
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+}
+
+.card {
+  height: 532px;
+  width: 245px;
+  box-shadow: 0 0 10px #00adb5;
+}
+
+h5, .h5 {
+  padding-bottom: 4px;
+}
+
+.card-img-top {
+  height: 342px;
+}
+
+.card-desc {
+  line-height: 5px;
+}
+
+@media screen and (max-width: 265px) {
+  .card-desc {
+    line-height: normal;
+  }
+}
+
 /*# sourceMappingURL=index.4717fcfd.css.map */
