@@ -550,7 +550,7 @@ getCards().then((dataValue)=>{
             <div class="card-body p-2">
                 <div class="text-center">
                     <h5 class="fw-bolder">${values.name}</h5>
-                    <p class="card-desc">Expansion: ${values.set.series}</p>
+                    <p class="card-desc">Set: ${values.set.series}</p>
                     <p class="card-desc">Released: ${values.set.releaseDate}</p>
                     <p class="mark d-inline-flex pb-0">$${values.cardmarket.prices.trendPrice}</p>
                 </div>

@@ -12017,14 +12017,14 @@ h5, .h5 {
 }
 
 .card-img-top {
-  height: 342px;
+  min-height: 342px;
 }
 
 .card-desc {
   line-height: 5px;
 }
 
-@media screen and (max-width: 265px) {
+@media screen and (max-width: 280px) {
   .card-desc {
     line-height: normal;
   }
